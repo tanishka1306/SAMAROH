@@ -5,9 +5,9 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
-import Home from './page/home/Home';
-import Navbar from './components/navbar/Navbar';
-import Contactus from './page/contactus/Contactus';
+import Home from './page/Home';
+import Navbar from './components/Navbar';
+import Contactus from './page/Contactus';
 
 function App() {
   return (

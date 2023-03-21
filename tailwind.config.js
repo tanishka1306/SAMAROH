@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundimg:{
+        logoimg: " url('./Images/Logo.png')",
+      },
+
       colors: {
         green: {
           
