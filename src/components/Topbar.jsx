@@ -7,8 +7,8 @@ function Topbar() {
   return (
     <div className='flex justify-between items-center px-4 py-2'>
         <div className='flex items-center'>
-      <GiTwirlyFlower size={30} className="text-rose-800 mr-2" />
-        <h1 className='text-2xl  text-rose-800'>S A M A R O H </h1>
+      <GiTwirlyFlower size={30} className="text-[#00337C] mr-2" />
+        <h1 className='text-2xl  text-[#00337C]'>S A M A R O H </h1>
       </div>
      <div className='flex'>
      <div className='hidden md:flex items-center px-6'>
