@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import {BsChatSquareDots} from 'react-icons/bs'
+import React, {useState} from 'react'
 import {FaFacebookF, FaInstagram, FaGooglePlusG, FaTwitter,FaBars} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 const Navbar = () => {
