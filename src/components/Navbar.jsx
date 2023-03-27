@@ -7,12 +7,12 @@ const Navbar = () => {
     setNav(!nav)
   }
   return (
-    <div className='w-full min-h-[100px] flex justify-between items-center absolute z-10 text-white bg-gray-600/70 '>
+    <div className='w-full min-h-[80px] flex justify-between items-center absolute z-10 text-white bg-gray-600/70 '>
       <ul className='hidden sm:flex px-4'>
-        <li > <Link className="text-white text-xl hover:text-black duration-300" to="/home"  >Home</Link></li>
+        <li > <Link className="text-white text-xl hover:text-black duration-300" to="/"  >Home</Link></li>
         <li>  <Link className="text-white text-xl hover:text-black duration-300"  to="/contactus"  >Contact Us</Link> </li>
-        <li> <Link className="text-white text-xl hover:text-black duration-300"  to="/contactus"  > See our Work</Link></li>
-        <li> <Link className="text-white text-xl hover:text-black duration-300"  to="/contactus"  >About Us</Link></li>
+        <li> <Link className="text-white text-xl hover:text-black duration-300"  to="/gallery"  > See our Work</Link></li>
+        <li> <Link className="text-white text-xl hover:text-black duration-300"  to="/aboutus"  >About Us</Link></li>
       </ul>
       <div className='flex justify-between '>
         <FaFacebookF className='mx-4'/>

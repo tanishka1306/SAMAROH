@@ -8,7 +8,6 @@ import Cards from "../components/Cards";
 import Packages from "../components/Packages";
 import Footer from "../components/Footer";
 
-
 function Home() {
   return (
     <div>

@@ -3,7 +3,7 @@ import React from "react";
 function Events() {
   return (
     <div className="mt-[100px] " id="h1">
-      <div className="text-center">
+      <div className="text-center  " >
         <h1 className="text-[40px] mb-[100px] ">CURATED MEETINGS AND EVENTS</h1>
         <p className="md:mx-[200px] sm:mx-[40px] text-[15px]">
           Elevate your next event with the glamour and sophistication of our Art
