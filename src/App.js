@@ -10,6 +10,9 @@ import Navbar from './components/Navbar';
 import Contactus from './page/Contactus';
 import Aboutus from "./page/Aboutus";
 import Gallery from "./page/Gallery";
+import Register from "./page/Register";
+import Login from "./page/Login";
+import Reservation from "./page/Reservation";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route exact path='/contactus' element={<Contactus/>}></Route>
         <Route exact path='/aboutus' element={<Aboutus/>}></Route>
         <Route exact path='/gallery' element={<Gallery/>}></Route>
+        <Route exact path='/register' element={<Register/>}></Route>
+        <Route exact path='/login' element={<Login/>}></Route>
+        <Route exact path='/reservation' element={<Reservation/>}></Route>
       </Routes>
     </div>
    </Router>

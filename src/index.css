@@ -33,7 +33,7 @@ code {
     @apply p-4 text-sm
   }
   button {
-    @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)]  
+    @apply px-4 py-2 border 
   }
   h2 {
     @apply text-xl font-bold

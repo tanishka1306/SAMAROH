@@ -1,11 +1,21 @@
 import React, {useState} from 'react'
-import {FaFacebookF, FaInstagram, FaGooglePlusG, FaTwitter,FaBars} from 'react-icons/fa'
-import {Link} from 'react-router-dom'
+import {FaBars} from 'react-icons/fa'
+import {Link, useNavigate} from 'react-router-dom'
+import Model from '../components/Model';
+
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handelNav = () => {
     setNav(!nav)
   }
+  let navigate = useNavigate();
+  const logout = () => {
+    localStorage.removeItem('authToken')
+    navigate("/");
+  }
+
+  const [openModel, setOpenModel] = useState(false)
+
   return (
     <div className='w-full min-h-[80px] flex justify-between items-center absolute z-10 text-white bg-gray-600/70 '>
       <ul className='hidden sm:flex px-4'>
@@ -14,12 +24,20 @@ const Navbar = () => {
         <li> <Link className="text-white text-xl hover:text-black duration-300"  to="/gallery"  > See our Work</Link></li>
         <li> <Link className="text-white text-xl hover:text-black duration-300"  to="/aboutus"  >About Us</Link></li>
       </ul>
-      <div className='flex justify-between '>
-        <FaFacebookF className='mx-4'/>
-        <FaInstagram className='mx-4'/>
-        <FaGooglePlusG className='mx-4'/>
-        <FaTwitter className='mx-4'/>
+      
+      {(!localStorage.getItem("authToken")) ?  
+       <div className='flex justify-between'>
+        <Link to="/register" className="text-white text-xl hover:text-black duration-300 mr-[20px]" > Register </Link>
+        <Link to="/login" className="text-white text-xl hover:text-black duration-300 mr-[20px]" > login </Link>
+      </div>  : 
+      <div className='flex justify-between gap-3'>
+        <button onClick={() => setOpenModel(true)} className='hover:bg-stone-600 duration-700'> Reservation </button> 
+        <Model open={openModel} onClose={() => setOpenModel(false)}/>
+        <div onClick={logout} className="text-white text-xl mt-[7px] hover:text-black duration-300 mr-[20px]" > Logout </div>
+
       </div>
+      }
+      
       {/* bar  Icons  */}
       <div onClick={handelNav} className='sm:hidden z-10'>
         <FaBars size={20} className="mr-4 cursor-pointer" />  
