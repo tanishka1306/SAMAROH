@@ -5,10 +5,10 @@ import {GiTwirlyFlower} from 'react-icons/gi'
 
 function Topbar() {
   return (
-    <div className='flex justify-between items-center px-4 py-2'>
+    <div className='flex justify-between items-center bg-white px-4 py-2' id='top'>
         <div className='flex items-center'>
-      <GiTwirlyFlower size={30} className="text-[#00337C] mr-2" />
-        <h1 className='text-2xl  text-[#00337C]'>S A M A R O H </h1>
+      <GiTwirlyFlower size={30} className="text-[#b8b788] mr-2" />
+        <h1 className='text-2xl  text-[#a19164]'>S A M A R O H </h1>
       </div>
      <div className='flex'>
      <div className='hidden md:flex items-center px-6'>

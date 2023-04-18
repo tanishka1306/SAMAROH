@@ -8,7 +8,7 @@ import {
 
 function Footer() {
   return (
-    <div className="bg-[#E4D0D0] text-center mt-[200px] flex items-center">
+    <div className="bg-[#C8B6A6] text-center mt-[200px] flex items-center">
      <div className="mx-auto my-auto">
      <div>
         <img src="./Images/Logo.png" alt="" />

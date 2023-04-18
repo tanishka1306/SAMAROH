@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Model from "../components/Model";
+// import Model from "../components/Model";
 import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
 
 function Login() {
   // pop-up
-  const [openModel, setOpenModel] = useState(false);
+  // const [openModel, setOpenModel] = useState(false);
 
   let navigate = useNavigate();
   const [userData, setuserData] = useState({
@@ -46,7 +46,7 @@ function Login() {
     <div>
       <Topbar />
       <Navbar />
-      <div className="grid grid-cols-1 sm:grid-cols-2 relative h-screen w-full mt-[100px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 relative h-screen w-full ">
         <div className="hidden sm:block">
           <img
             className="w-full h-full object-cover"
@@ -87,17 +87,17 @@ function Login() {
               >
                 LOGIN
               </button>
-              <button
+              {/* <button
                 onClick={() => setOpenModel(true)}
                 className="hover:bg-stone-600 duration-700"
               >
                 {" "}
                 Reservation{" "}
-              </button>
+              </button> */}
             </div>
           </form>
         </div>
-        <Model open={openModel} onClose={() => setOpenModel(false)}  />
+        {/* <Model open={openModel} onClose={() => setOpenModel(false)}  /> */}
       </div>
     </div>
   );

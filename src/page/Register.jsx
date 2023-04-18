@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-
+import Navbar from '../components/Navbar'
 import Topbar from '../components/Topbar'
 
 function Register() {
@@ -40,7 +40,7 @@ else{
     
     <div>
      <Topbar />
-
+    <Navbar />
       <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full '>
        <div className='hidden sm:block'>
        <img className='w-full h-full object-cover' 

@@ -5,7 +5,7 @@ import Topbar from '../components/Topbar'
 
 function Aboutus() {
   return (
-    <div>
+    <div className="" id='h1'>
         <Topbar />
         <Navbar />
       <div className='bg-[#C8B6A6] w-[1200px] h-[430px] mt-[250px] relative ml-[100px] shrink'>
@@ -36,7 +36,7 @@ function Aboutus() {
 
         <div className="mx-[20px] lg:mt-[150px]">
           <h1 className="text-[35px]  ">GRAND FUNCTION HALLS</h1> <br />
-          <p>
+          <p className="font-['Mulish']">
             Our spectacular Art Deco style Grand Ballroom effortlessly weaves
             historic glamour with modern style. Once home to candle lit evenings
             and grand orchestras, this opulent, boutique style ballroom is the

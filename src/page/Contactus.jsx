@@ -9,7 +9,7 @@ function Contactus() {
     <div>
       <Topbar />
       <Navbar />
-      <div className="h-[700px] w-[1200px] mx-[180px] mt-[120px] xl:flex ">
+      <div className="font-['Mulish'] h-[700px] w-[1200px] mx-[180px] mt-[120px] xl:flex ">
         <div>
           <img className="h-[700px] w-[600px]"
           src="./Images/con2.jpg" alt="loading" />

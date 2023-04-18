@@ -2,53 +2,29 @@ import React from "react";
 
 function Cards() {
   return (
-    <div className="text-center w-auto h-auto ml-[30px]">
-      <h1 className="text-[40px] text-center w-full mt-[180px] mb-[100px]">
-        EVENTS SPACES
-      </h1>
+    <div className="text-center w-auto h-auto  ml-[30px] mt-[200px]">
+    <h1 className="text-[40px] text-center w-full mt-[80px] mb-[100px]" id="h1">
+      Some Services
+    </h1>
 
-      <div className="xl:flex ml-2">
-        <div className="2xl:flex flex-shrink ">
-          <div className="sm:ml-[40px]">
-            <div>
-              <img
-                className="w-[450px] h-[300px] border-[4px] border-black"
-                src="./Images/h1.png"
-                alt="loading"
-              />
-            </div>
-            <div className="w-[450px] h-[300px] mt-[25px] text-center">
-              <h2>Halcyon Hall</h2>
-              <p className="mt-[20px]">
-                Experience coastal splendour and historic decadence at Halcyon
-                Hall. Celebrate beneath the ambient light of ornate chandeliers,
-                and be inspired by the extravagant Art Deco interior. Our
-                largest event space, the Hall is lined with lofty windows and
-                French doors, revealing ocean views and opening onto Sunset
-                Terrace. Room size: 224 sqm
-              </p>
-            </div>
+    <div className="xl:flex xl:ml-2 md:ml-[300px] sm:ml-[50px]">
+      <div className="2xl:flex flex-shrink ">
+      <div className="sm:ml-[40px]">
+          <div>
+            <img
+              className="w-[450px] h-[300px] border-[4px] border-black"
+              src="./Images/service4.jpg"
+              alt="loading"
+            />
           </div>
-
-          <div className="sm:ml-[40px]">
-            <div>
-              <img
-                className="w-[450px] h-[300px] border-[4px] border-black"
-                src="./Images/h3.png"
-                alt="loading"
-              />
-            </div>
-            <div className="w-[450px] h-[300px] mt-[25px] text-center">
-              <h2>Sunset Terrace</h2>
-              <p className="mt-[20px]">
-                Sunset Terrace is the perfect venue for a refined, yet carefree
-                seaside experience. With room to mingle and entertain, and
-                breathtaking ocean views at your fingertips, immerse your guests
-                in Sorrento’s vibrant coastal atmosphere. This alluring space
-                can also be booked in conjunction with our spectacular Halcyon
-                Hall. Room Size: 135 sqm
-              </p>
-            </div>
+          <div className="w-[450px] font-['Mulish'] h-[300px] mt-[25px] text-center">
+            <h2 id="h1"> Food And beverages</h2>
+            <p className="mt-[20px] ">
+            At our event organizing company, we understand that food and beverage service
+               is an important aspect of any successful event. We have experience
+               in providing high-quality food and beverage service for a wide range
+                of events, including weddings, corporate events, and festivals.
+            </p>
           </div>
         </div>
 
@@ -56,24 +32,50 @@ function Cards() {
           <div>
             <img
               className="w-[450px] h-[300px] border-[4px] border-black"
-              src="./Images/hall.jpeg"
+              src="./Images/service2.jpg"
               alt="loading"
             />
           </div>
-          <div className="w-[450px] h-[300px] mt-[25px] text-center">
-            <h2>The Gallery</h2>
-            <p className="mt-[20px]">
-              A sophisticated and versatile space, The Gallery is the perfect
-              venue for an elegant meeting or intimate event. Large windows
-              flood the room with natural light and provide ocean views. This
-              space is ideal for a meeting of the minds, with precisely tailored
-              furnishings and packages available to suit your needs. Room size:
-              105 sqm
+          <div className="w-[450px] font-['Mulish'] h-[300px] mt-[25px] text-center">
+            <h2 id="h1">Event Management</h2>
+            <p className="mt-[20px] ">
+            We have experience in organizing a wide range of management
+                events, including conferences, seminars, workshops, and more.Our
+                team of experienced event planners will work with you to
+                understand your goals for the event and create a customized plan
+                that meets your needs and budget. We can help you with venue
+                selection, catering, audiovisual equipment, promotional
+                materials, and logistics, among other aspects of event planning.
             </p>
           </div>
         </div>
       </div>
+
+      <div className="sm:ml-[40px]">
+        <div>
+          <img
+            className="w-[450px] h-[300px] border-[4px] border-black"
+            src="./Images/service3.jpg"
+            alt="loading"
+          />
+        </div>
+        <div className="w-[450px] font-['Mulish'] h-[300px] mt-[25px] text-center">
+          <h2 id="h1">Live Entertainment</h2>
+          <p className="mt-[20px]">
+          We can help you with venue selection, artist selection, staging,
+              lighting, sound, and logistics, among other aspects of event
+              planning. We have established relationships with a variety of
+              talented artists and performers, and can help you select the
+              perfect talent to match your event and audience. We can also help
+              you with promotional materials, such as posters, flyers, and
+              social media posts, to ensure that your event is well-promoted and
+              attracts the right audience.
+          </p>
+        </div>
+      </div>
     </div>
+    <hr className='bg-[#5a4a3b] h-[4px] mb-[50px]' />
+  </div>
   );
 }
 

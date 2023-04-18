@@ -11,6 +11,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Copperplate Gothic Bold', 'serif';
+
 }
 
 code {
@@ -40,5 +42,8 @@ code {
   }
 }
 #h1 {
+  font-family: 'Cinzel Decorative', cursive;
+}
+#top {
   font-family: 'Cinzel Decorative', cursive;
 }

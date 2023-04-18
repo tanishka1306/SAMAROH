@@ -2,31 +2,29 @@ import React from "react";
 
 function Packages() {
   return (
-    <div className="text-center w-auto h-auto ml-[30px]">
-      <h1 className="text-[40px] text-center w-full mt-[80px] mb-[100px]">
-        EVENTS PACKAGES
+    <div className="text-center w-auto h-auto font-['Mulish'] ml-[30px] mt-[100px]">
+      <h1 className="text-[40px] text-center w-full mt-[80px] mb-[100px]" id="h1">
+        Events 
       </h1>
 
-      <div className="xl:flex ml-2">
+      <div className="xl:flex xl:ml-2 md:ml-[300px]">
         <div className="2xl:flex flex-shrink ">
-          <div className="sm:ml-[40px]">
+        <div className="sm:ml-[40px]">
             <div>
               <img
                 className="w-[450px] h-[300px] border-[4px] border-black"
-                src="./Images/h2.png"
+                src="./Images/service1.jpg"
                 alt="loading"
               />
             </div>
             <div className="w-[450px] h-[300px] mt-[25px] text-center">
-              <h2>Weddings at InterContinental Sorrento</h2>
-              <p className="mt-[20px]">
-                Celebrate your dream wedding at an iconic seaside destination.
-                Allow us to bring your vision to life, and embark on life’s
-                biggest adventure surrounded by sun-kissed limestone, timeless
-                elegance, and a vibrant coastal atmosphere. Select one of our
-                packages, or create a truly personalised experience with our
-                Events team. Plan your dream day. Contact one of our Events
-                Specialists at meetings.icsorrento@ihg.com.
+              <h2 id="h1"> Factory Open Day</h2>
+              <p className="mt-[20px] font-['Mulish']">
+                Our team of experienced event planners can help you with all
+                aspects of your event, including venue selection, catering,
+                audiovisual equipment, and logistics. We will work with you to
+                understand your goals for the event and create a customized plan
+                that meets your needs and budget.
               </p>
             </div>
           </div>
@@ -35,20 +33,19 @@ function Packages() {
             <div>
               <img
                 className="w-[450px] h-[300px] border-[4px] border-black"
-                src="./Images/resort.jpg"
+                src="./Images/service5.jpg"
                 alt="loading"
               />
             </div>
             <div className="w-[450px] h-[300px] mt-[25px] text-center">
-              <h2>Sorrento Private Residence Package</h2>
-              <p className="mt-[20px]">
-                Create a truly bespoke event with Sorrento Private Residence.
-                Carefully tailored to those seeking a private and collaborative
-                space to enhance their business and connect as a team, this
-                package includes exclusive use of the hotel’s accommodation and
-                Pool Deck, sole access to three elegant meeting spaces, and
-                select meals created by award-winning chef, Scott Pickett. View
-                Brochure
+              <h2 id="h1">Light Shows</h2>
+              <p className="mt-[20px] font-['Mulish']">
+              At our event organizing company, we understand that lighting is a
+               key element of any successful event. We have experience in organizing 
+               a wide range of light shows for events, including concerts, corporate events, weddings, and more.
+               Our team of experienced event planners will work with you to create a customized lighting plan
+                that meets your needs and budget. We can help you with venue selection, equipment rental, 
+                staging, and logistics, among other aspects of light show organizing.
               </p>
             </div>
           </div>
@@ -58,23 +55,25 @@ function Packages() {
           <div>
             <img
               className="w-[450px] h-[300px] border-[4px] border-black"
-              src="./Images/reward.png"
+              src="./Images/service6.jpg"
               alt="loading"
             />
           </div>
           <div className="w-[450px] h-[300px] mt-[25px] text-center">
-            <h2>Be Rewarded</h2>
-            <p className="mt-[20px]">
-              Make event planning more rewarding with IHG® Business Rewards.
-              Earn 3 points* for every $1USD spent on qualifying bookings made
-              for others. Enjoy access to all of the redemption options
-              available in our IHG Rewards Club global catalogue, including
-              hotel stays, air travel, and much more. *Terms and conditions
-              apply.
+            <h2 id="h1">Concerts</h2>
+            <p className="mt-[20px] font-['Mulish']">
+            Concerts are one of the most popular and exciting types of events.
+             We have experience in organizing a wide range of concerts, including
+              indoor and outdoor concerts, festivals, and more.
+              Our team of experienced event planners will work with you to create
+               a customized plan that meets your needs and budget. We can help 
+               you with venue selection, artist selection, staging, lighting, sound
+               , and logistics, among other aspects of concert organizing.
             </p>
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
